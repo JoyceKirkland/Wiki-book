@@ -30,7 +30,7 @@ Sublime Text 3 可从 [官网](http://www.sublimetext.com/) 下载（推荐下�
 ### 适配中文
 
 1. 汉化：用 `Package Control` 搜索 `ChineseLocalizations` ，点击安装。
-2. 中文输入问题：下载 [IMESupport](https://github.com/zcodes/IMESupport/archive/main.zip)，解压到插件安装目录，重启 Sublime ，解决中文输入时输入框不跟随的问题。
+2. 中文输入问题：下载 [IMESupport](https://github.com/zcodes/IMESupport/archive/master.zip)，解压到插件安装目录，重启 Sublime ，解决中文输入时输入框不跟随的问题。
 3. 中文字体：下载 `Consolas-with-Yahei` ，解压安装，在用户设置里替换为 `"font_face": "Consolas-with-Yahei",` .
 
    **主题**
@@ -86,7 +86,7 @@ Sublime Text 3 可从 [官网](http://www.sublimetext.com/) 下载（推荐下�
                       "command": "run_existing_window_command", "args":
                       {
                            "id": "repl_python_run",
-                           "file": "config/Python/Main.sublime-menu"
+                           "file": "config/Python/master.sublime-menu"
                       }
     },
 ]

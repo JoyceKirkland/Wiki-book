@@ -3,7 +3,7 @@ name: Wiki-Action
 on: 
   push:
     branches: 
-      - main
+      - master
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: 'main'
+          ref: 'master'
       
       - run: npm install
       - run: npm run docs:build

@@ -33,9 +33,9 @@ $ yum install -y git
 ### 自动
 
 ```shell
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/main/tools/install.sh)"
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 或
-$ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/main/tools/install.sh -O -)"
+$ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
 ### 手动

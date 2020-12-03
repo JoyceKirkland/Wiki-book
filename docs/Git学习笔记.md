@@ -43,12 +43,12 @@ $ git config --global user.email "email@example.com"
 2. 点开 GitHub [**个人设置 - SSH and GPG keys**](https://github.com/settings/keys)，添加新的 SSH key
    - Title 任意，Key 为 `id_rsa.pub` 文件中的内容
 3. 在 GitHub 新建仓库，不要勾选 `Initialize this repository with a README`
-   - 如果不小心初始化了仓库，则要先 pull 下来：`$ git pull origin main`
+   - 如果不小心初始化了仓库，则要先 pull 下来：`$ git pull origin master`
 4. 复制 SSH 地址（示例：`git@github.com:linyuxuanlin/git-learning.git`），在本地 Git 仓库下运行命令：`$ git remote add origin git@server-name:user/repo-name.git`
-5. 将本地内容推送到远程仓库：`$ git push -u origin main`
+5. 将本地内容推送到远程仓库：`$ git push -u origin master`
    - 在出现提示信息时输入 `yes` 并回车继续
-   - 由于远程库是空的，我们第一次推送 main 分支时，加上了 `-u` 参数，Git 不但会把本地的 main 分支内容推送的远程新的 main 分支，还会把本地的 main 分支和远程的 main 分支关联起来，在以后的推送或者拉取时就可以简化命令
-6. 未来每一次提交：`$ git push origin main`
+   - 由于远程库是空的，我们第一次推送 master 分支时，加上了 `-u` 参数，Git 不但会把本地的 master 分支内容推送的远程新的 master 分支，还会把本地的 master 分支和远程的 master 分支关联起来，在以后的推送或者拉取时就可以简化命令
+6. 未来每一次提交：`$ git push origin master`
 
 ### 远程项目本地化
 
@@ -71,8 +71,8 @@ $ git config --global user.email "email@example.com"
 1. 创建并切换至新分支：`$ git switch -c branch_name`
    - `-c` 代表创建并切换分支
 2. 查看当前分支：`git branch`
-3. 将新分支内容合并到 main 上：`$ git merge branch_name`
-   - 先切换到待合并的分支，再使用合并命令（示例：先切换到 main，再执行以上命令）
+3. 将新分支内容合并到 master 上：`$ git merge branch_name`
+   - 先切换到待合并的分支，再使用合并命令（示例：先切换到 master，再执行以上命令）
    - 当 Git 无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成
    - 解决冲突就是把 Git 合并失败的文件手动编辑为我们希望的内容，再提交
 4. 删除某个分支：`$ git branch -d dev`

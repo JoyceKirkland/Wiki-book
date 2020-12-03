@@ -34,7 +34,7 @@
 - `http://joycekirkland.site/`：替换为你的自定义域名 `xx.com`
 - `JoyceKirkland/Wiki-book`：替换为你的 GitHub 用户名和仓库名 `xxx/Wiki-book`
   - （如果仓库名称不为 `Wiki-book`，则需全局搜索并修改对应的仓库名）
-- `main`：替换为 `main`.
+- `master`：替换为 `master`.
 
 ## 第四步：配置部署
 
@@ -51,7 +51,7 @@
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20201122235715.jpg)
 
-在提示 **部署成功** 后，我们点击页面右上角的 `Settings（设置）` , 切换到 `Domains（域名）` 栏目，在输入框内填写你买的域名 `xx.com` ，点击 `Add（添加）`。
+在提示 **部署成功** 后，我们点击页面右上角的 `Settings（设置）` , 切换到 `Domasters（域名）` 栏目，在输入框内填写你买的域名 `xx.com` ，点击 `Add（添加）`。
 
 然后我们切换到 `Git（没得翻译）` 栏目，滚轮下滑到 `Production Branch（生产分支）`，选择 `Custom` , 填写 `gh-pages` , 如下图：
 

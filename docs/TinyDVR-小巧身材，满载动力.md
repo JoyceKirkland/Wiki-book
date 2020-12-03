@@ -1,10 +1,10 @@
 # TinyDVR - 小巧身材，满载动力
 
-—— 基于 TinyDVR main V1.1 & Slave V7.2 Release
+—— 基于 TinyDVR master V1.1 & Slave V7.2 Release
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200125191345.jpg)
 
-TinyDVR 是一款电机驱动套件，包含母板（main）与子板（Slave），供电部分与驱动部分分离，相比前身 ZenDriver 大幅度缩减了体积，极大提升了可拓展性。你可以根据自己的需求，堆叠不同数量的子板，驱动 n 个电机。
+TinyDVR 是一款电机驱动套件，包含母板（master）与子板（Slave），供电部分与驱动部分分离，相比前身 ZenDriver 大幅度缩减了体积，极大提升了可拓展性。你可以根据自己的需求，堆叠不同数量的子板，驱动 n 个电机。
 
 ## 基本参数
 
@@ -17,7 +17,7 @@ TinyDVR 是一款电机驱动套件，包含母板（main）与子板（Slave）
 
 ## 接口定义
 
-### TinyDVR main
+### TinyDVR master
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200125191439.png)
 

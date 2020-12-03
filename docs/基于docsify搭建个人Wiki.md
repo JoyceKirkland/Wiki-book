@@ -110,7 +110,7 @@
    1. 搜索 `Power's Wiki`（包括下方的 `Power\'s Wiki`），改为你自己网站的名字（注意如果 Wiki 标题 `'s` ，需要加转义字符 `\'s`）
    2. 删除 `你保存的路径/CNAME` 文件
    3. 其他设置项的更改稍后再说
-5. 保存文档，打开 GitHub Desktop, 可以看到有修改记录。我们在下方的 `Summary` 一栏里填写本次提交的摘要（填什么都行），点击最下方蓝色按钮 `Commit to main`，然后点击右边蓝色按钮 `Push origin`，等待提交完成
+5. 保存文档，打开 GitHub Desktop, 可以看到有修改记录。我们在下方的 `Summary` 一栏里填写本次提交的摘要（填什么都行），点击最下方蓝色按钮 `Commit to master`，然后点击右边蓝色按钮 `Push origin`，等待提交完成
 6. 我们回到刚才打开的网页，点击右上角小齿轮图标的 `Settings` 按钮，滚动页面找到 `GitHub Pages` 栏目，如果没问题的话，可以看到提示 `Your site is ready to be published at https://xxx.github.io/.`，点击链接就可以访问你的网站了
 
 ## 写文章的流程

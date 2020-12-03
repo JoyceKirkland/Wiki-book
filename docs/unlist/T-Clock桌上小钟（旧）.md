@@ -140,7 +140,7 @@ void loop(void)
 
 资料下载：
 
-- 所有文件（包含库文件）：[https://github.com/linyuxuanlin/My-Arduino-projects/tree/main/T-Clock](https://github.com/linyuxuanlin/My-Arduino-projects/tree/main/T-Clock)
+- 所有文件（包含库文件）：[https://github.com/linyuxuanlin/My-Arduino-projects/tree/master/T-Clock](https://github.com/linyuxuanlin/My-Arduino-projects/tree/master/T-Clock)
 
 ## 总结
 
